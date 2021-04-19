@@ -15,4 +15,5 @@ resource "aws_instance" "myec2" {
     device_name           = "/dev/sda1"
     delete_on_termination = true
   }
+
 }
